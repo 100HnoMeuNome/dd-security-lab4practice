@@ -1,0 +1,27 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: demo-cluster
+  region: us-east-1
+     
+nodeGroups:
+  - name: ng-1
+    instanceType: t2.large
+    desiredCapacity: 2
+    ssh: # use existing EC2 key
+      publicKeyName: put_your_ec2_key_name
+    iam:
+      withAddonPolicies:
+        imageBuilder: true
+        externalDNS: true
+        autoScaler: true
+        certManager: true
+        appMesh: true
+        appMeshPreview: true
+        ebs: true
+        fsx: true
+        efs: true
+        albIngress: true
+        xRay: true
+        cloudWatch: true
