@@ -1,0 +1,49 @@
+registry: "public.ecr.aws/datadog"
+datadog:
+  apiKeyExistingSecret: "datadog-secret"
+  clusterName: put_your_cluster_name
+  site: "datadoghq.com"
+  tags:
+    - "env:prod"
+  kubelet:
+    tlsVerify: false
+  apm:
+    instrumentation:
+      enabled: true
+      libVersions:
+        java: "1"
+        dotnet: "3"
+        python: "2"
+        js: "5"
+        php: "1"
+  remoteConfiguration:
+    enabled: true
+  logs:
+    enabled: true
+    containerCollectAll: true
+  orchestratorExplorer:
+    enabled: true
+  processAgent:
+    enabled: true
+    processCollection: true
+  asm:
+    threats:
+      enabled: true
+    sca:
+      enabled: true
+    iast:
+      enabled: true
+  securityAgent:
+    runtime:
+      enabled: true
+    compliance:
+      enabled: true
+  sbom:
+    containerImage:
+      enabled: true
+    host:
+      enabled: true
+  serviceMonitoring:
+    enabled: true
+  networkMonitoring:
+    enabled: true
