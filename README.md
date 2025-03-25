@@ -1,4 +1,5 @@
 # Warning, read this before you start!
+You are responsible for laboratory setup and administration.
 
 # Goal
 
