@@ -18,15 +18,25 @@ or follow this steps
 **kubectl quick reference**
 [Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference)
 
-```k create namespace datadog```
+```
+k create namespace datadog
+```
 
-```helm repo add datadog https://helm.datadoghq.com```
+```
+helm repo add datadog https://helm.datadoghq.com
+```
 
-```helm repo update```
+```
+helm repo update
+```
 
-```kubectl create secret generic datadog-secret --from-literal api-key=put_your_api_key -n datadog```
+```
+kubectl create secret generic datadog-secret --from-literal api-key=put_your_api_key -n datadog
+```
 
-```helm install datadog-agent -f dd-helm.yaml datadog/datadog -n datadog ```
+```
+helm install datadog-agent -f dd-helm.yaml datadog/datadog -n datadog
+```
 
 if works you should see the pods!
 
