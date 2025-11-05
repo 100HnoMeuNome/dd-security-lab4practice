@@ -46,7 +46,8 @@ if works you should see the pods!
 Workload Protection monitors file, network, and process activity across your environment to detect real-time threats to your infrastructure.
 
 I have this PDF with command samples [How to Trigger Runtime Rules.pdf](https://github.com/user-attachments/files/23375229/How.to.Trigger.Runtime.Rules.pdf)
-This script generate the signals 
+
+This script generate the signals [trigger-runtime-rules.sh](https://github.com/100HnoMeuNome/dd-security-lab4practice/blob/https/github.com/100HnoMeuNome/readme.md/trigger-runtime-rules.sh)
 
 Is possible see the signals and the events.
 
