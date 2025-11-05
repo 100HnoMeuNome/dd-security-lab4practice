@@ -42,4 +42,16 @@ if works you should see the pods!
 
 ![image](https://github.com/user-attachments/assets/38878080-f8d1-46b1-b0c0-6deb7d8d9c8a)
 
+## Cloud Workload Protection
+Workload Protection monitors file, network, and process activity across your environment to detect real-time threats to your infrastructure.
+
+I have this PDF with command samples [How to Trigger Runtime Rules.pdf](https://github.com/user-attachments/files/23375229/How.to.Trigger.Runtime.Rules.pdf)
+This script generate the signals 
+
+Is possible see the signals and the events.
+
+<img width="1469" height="586" alt="image" src="https://github.com/user-attachments/assets/e7d64a5b-ea68-4e16-be3c-e4f615131b71" />
+<img width="1738" height="927" alt="image" src="https://github.com/user-attachments/assets/d56c5357-1251-4ccf-8db0-2ce9e5e541c9" />
+
+ 
 
